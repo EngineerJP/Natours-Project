@@ -8,6 +8,21 @@
 html {
   font-size: 62.5%; }
 
+<<<<<<< HEAD
+=======
+*/ 
+
+*,
+*::after,
+*::before { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+}
+>>>>>>> 159ff1b69ff449f40e5c75fa0d66071da1abe353
 body {
   box-sizing: border-box; }
 
@@ -56,6 +71,7 @@ body {
     display: block;
     font-size: 6rem;
     font-weight: 400;
+<<<<<<< HEAD
     letter-spacing: 3.5rem;
     animation-name: moveInLeft;
     animation-duration: 1s;
@@ -158,8 +174,156 @@ body {
   .header__logo {
     height: 5rem; }
   .header__text-box {
+=======
+   /* font-size: 16px;*/
+    line-height: 1.7;
+    color: #777;
+    padding: 2rem;
+
+    box-sizing: border-box;
+}
+.header {
+    height: 97vh;
+    background-image: linear-gradient(
+    to right bottom, 
+    rgba(126, 213, 111, 0.8), 
+    #28b485), 
+    url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.header__logo-box{
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+.header__logo{
+    height: 5rem;
+}
+.header__text-box {
+>>>>>>> 159ff1b69ff449f40e5c75fa0d66071da1abe353
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+<<<<<<< HEAD
     text-align: center; }
+=======
+    text-align: center;
+
+}
+.heading-primary{
+    color:#fff;
+    text-transform: uppercase;
+
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+}
+
+.heading-primary--main{
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+
+    /*
+    animation-delay: 3s;
+    */
+}
+.heading-primary--sub{
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+    animation: moveInRight 1s; /* both animation-name and animation-duration into one function*/
+}
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    80% {
+        transform: translateX(1ren)
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+    80% {
+        transform: translateX(-1rem)
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+.header__btn:link, .header__btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 1.6rem;
+}
+.header__btn:hover {
+    transform: translateY(-.3rem);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+.header__btn:active {
+    transform: translateY(-.1rem);
+    box-shadow: 0 1rem 1rem rgba(0,0,0,.2);
+}
+.btn--white {
+    background-color: #fff;
+    color: #777;
+}
+.header__btn:after{
+    content: "";
+    display: inline-block;
+    height:100%;
+    width:100%;
+    border-radius: 10rem;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+.btn--white::after{
+    background-color: #fff ;
+}
+.header__btn:hover::after{
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn--animated{
+    animation: moveInBottom .5s ease-out;
+    animation-fill-mode: backwards;
+}
+>>>>>>> 159ff1b69ff449f40e5c75fa0d66071da1abe353
