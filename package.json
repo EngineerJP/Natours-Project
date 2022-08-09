@@ -1,33 +1,9 @@
 {
   "name": "starter",
   "version": "1.0.0",
-<<<<<<< HEAD
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
-=======
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
   "description": "Landing page for natours",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
->>>>>>> 159ff1b69ff449f40e5c75fa0d66071da1abe353
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EngineerJP/Natours-Project.git"
-  },
-<<<<<<< HEAD
-  "author": "",
-=======
-  "author": "Jacob Paquette",
->>>>>>> 159ff1b69ff449f40e5c75fa0d66071da1abe353
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EngineerJP/Natours-Project/issues"
-  },
-  "homepage": "https://github.com/EngineerJP/Natours-Project#readme",
-  "devDependencies": {
-    "node-sass": "^7.0.1"
-  }
-}
+  "main": "index.js"}}
