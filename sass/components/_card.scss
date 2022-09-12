@@ -6,7 +6,6 @@
     position: relative;
     height: 52rem;
 
-
     &__side{
     height: 52rem;
     transition: all .8s ease;
@@ -55,6 +54,8 @@
         background-blend-mode: screen;
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
 
         &--1{
             background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
