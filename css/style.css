@@ -463,6 +463,14 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.2); }
 
+.navigation__background {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 6.5rem;
+  right: 6.5rem; }
+
 .footer {
   background-color: #333;
   padding: 10rem 0 20rem 0;
