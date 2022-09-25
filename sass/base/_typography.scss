@@ -85,3 +85,12 @@ body {
     }
 
 }
+.popup__right--heading {
+
+    @include respond(tab-land) {
+  
+      display: none;
+  
+    }
+  
+  }
